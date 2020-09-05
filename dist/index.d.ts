@@ -1,9 +1,17 @@
 declare class CNP {
-    cnp: Number;
-    age: Number | undefined;
-    dob: Date | undefined;
+    cnp: number;
+    digits: string[] | undefined;
+    valid: boolean;
+    error: Error | undefined;
+    age: number | undefined;
+    dateOfBirth: Date | undefined;
+    yearOfBirth: number | undefined;
+    monthOfBirth: number | undefined;
+    dayOfBirth: number | undefined;
+    countyCode: string | undefined;
+    placeOfBirth: string | undefined;
     genre: "M" | "F" | undefined;
-    genreCode: Number | undefined;
-    constructor(number: Number);
+    genreCode: number | undefined;
+    constructor(number: number);
 }
 export default CNP;

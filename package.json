@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"No test specified\""
+    "test": "mocha"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -25,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/micovi/cnp-js/issues"
   },
-  "homepage": "https://github.com/micovi/cnp-js#readme"
+  "homepage": "https://github.com/micovi/cnp-js#readme",
+  "dependencies": {
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
 }
