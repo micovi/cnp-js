@@ -1,5 +1,5 @@
 {
-  "name": "cnp-js",
+  "name": "@micovi/cnp-js",
   "version": "0.1.0",
   "description": "CNP Parser for Romanian Personal Numeric Code",
   "main": "./dist/index.js",
