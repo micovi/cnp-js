@@ -7,9 +7,6 @@
     "build": "tsc",
     "test": "echo \"No test specified\""
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/micovi/cnp-js.git"
