@@ -2,8 +2,54 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var moment = require('moment').default;
 var countyCodes = {
-    '01': "Alba",
-    '29': "Prahova"
+    "01": "Alba",
+    "02": "Arad",
+    "03": "Argeș",
+    "04": "Bacău",
+    "05": "Bihor",
+    "06": "Bistrița-Năsăud",
+    "07": "Botoșani",
+    "08": "Brașov",
+    "09": "Brăila",
+    "10": "Buzău",
+    "11": "Caraș-Severin",
+    "12": "Cluj",
+    "13": "Constanța",
+    "14": "Covasna",
+    "15": "Dâmbovița",
+    "16": "Dolj",
+    "17": "Galați",
+    "18": "Gorj",
+    "19": "Harghita",
+    "20": "Hunedoara",
+    "21": "Ialomița",
+    "22": "Iași",
+    "23": "Ilfov",
+    "24": "Maramureș",
+    "25": "Mehedinți",
+    "26": "Mureș",
+    "27": "Neamț",
+    "28": "Olt",
+    "29": "Prahova",
+    "30": "Satu Mare",
+    "31": "Sălaj",
+    "32": "Sibiu",
+    "33": "Suceava",
+    "34": "Teleorman",
+    "35": "Timiș",
+    "36": "Tulcea",
+    "37": "Vaslui",
+    "38": "Vâlcea",
+    "39": "Vrancea",
+    "40": "București",
+    "41": "București",
+    "42": "București",
+    "43": "București",
+    "44": "București",
+    "45": "București",
+    "46": "București",
+    "51": "Călărași",
+    "52": "Giurgiu"
 };
 var CNP = /** @class */ (function () {
     function CNP(number) {
@@ -43,7 +89,6 @@ var CNP = /** @class */ (function () {
             throw this.error;
         }
         this.placeOfBirth = countyCodes[this.countyCode];
-        //const controlNumber = [2, 7, 9, 1, 4, 6, 3, 5, 8, 2, 7, 9]
     }
     return CNP;
 }());
