@@ -1,0 +1,26 @@
+{
+  "name": "cnp-js",
+  "version": "0.1.0",
+  "description": "CNP Parser for Romanian Personal Numeric Code",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micovi/cnp-js.git"
+  },
+  "keywords": [
+    "cnp",
+    "age",
+    "dob",
+    "genre"
+  ],
+  "author": "Ovidiu Miclea (micovi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micovi/cnp-js/issues"
+  },
+  "homepage": "https://github.com/micovi/cnp-js#readme"
+}
