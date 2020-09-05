@@ -9,3 +9,5 @@ class CNP {
         this.cnp = number;
     }
 }
+
+export default CNP;
